@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Vazir', 'pfont', 'Ubuntu';
+}
+
+.pure-g {
+    letter-spacing: -0.32em; /* to solve an issue in FF! */
+}
+
+/*=============== Font Issues ===============*/
+input, .splash-head, .pure-button, .pure-form, .pure-button {
+    font-family: 'Vazir', 'pfont', 'Ubuntu';
+}
+
+.home-menu a, .content-subhead, h1, h2, h3, h4, h5, h6, label, p {
+    color: white;
+    font-family: 'Vazir', 'pfont', 'Ubuntu';
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.content-head {
+    letter-spacing: 0em;
+}
+
+/*=============== Header ===============*/
+.home-menu {
+    text-align: right;
+}
+
+.home-menu ul {
+    float: left;
+}
+
+.pure-menu-horizontal {
+    white-space: normal;
+}
+
+.pure-menu .pure-menu-heading {
+    font-size: 135%;
+}
+
+.pure-menu-list {
+    margin-top: 3px;
+}
+
+/*=============== a, a:hover ===============*/
+.home-menu li a:hover,
+.home-menu li a:focus,
+.footer a:hover,
+.content a:hover,
+.ribbon a:hover  {
+    background: #fff;
+    border-bottom: 0px solid #fff;
+    color: #111414;
+    text-decoration: none;
+}
+
+.footer a,
+.content a {
+    color: white;
+}
+
+.ribbon a {
+    color: black;
+}
+
+/*===============   ===============*/
+.splash-container, .ribbon {
+    background: #FFEB3B;
+}
+
+.home-menu, .content-wrapper {
+    background: black;
+}
+
+.splash-head, .splash-subhead {
+    color: black;
+}
+
+.splash-head {
+    border-color: black
+}
+
+.pure-button {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+}
+
+/*=============== Black Color for Yellow Parts ===============*/
+
+.content-head-ribbon, .text {
+    color: black;
+    padding: 5px;
+}
+
+/*=============== SUBSCRIBE FORM ===============*/
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    background-color: white;
+    border: 2px solid gray;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #000000;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 9px 10px;
+    margin: 0px 0px 8px 0px;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -ms-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    width: 100%;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    background-color: rgba(255,255,255,1);
+}
+
+.subscribe-width {
+    width: 50%;
+    margin-right: 25%;
+}
+
+.subscribe {
+    position: relative;
+    height: auto;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+}
+
+input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholder, input:-ms-input-placeholder {
+    color: #999;
+}
+
+.subscribe  input[type="text"] {
+    padding: 9px 50px 9px 15px;
+}
+
+#subscribe_submit {
+    background: transparent url(../images/envelope.png) no-repeat center left;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+    border: none;
+    padding: 1px 15px 4px;
+    outline: none;
+    position: absolute;
+    left: 11px;
+    top: 9px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#subscribe_submit:hover {
+    background: transparent url(../images/envelope-hover.png) no-repeat top left;
+}
+
+.error {
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    float: right;
+    margin: -40px 4px 0 0;
+    position: relative;
+    top: 0;
+}
+
+.error i{
+    background: none !important;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    width: 12px !important;
+    height: 12px !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.error i:before {
+    color: #FF0000;
+    content: "";
+    font-family: FontAwesome;
+    font-size: 11px;
+    margin-right: 10px;
+    vertical-align: top;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+/*=============== Google Maps ===============*/
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*=============== Gitter Button ===============*/
+.gitter-open-chat-button {
+    background-color: #FFEB3B;
+    color: #000 !important;
+    font-family: 'Vazir';
+    font-size: 20px;
+    padding: .4em .5em;
+    letter-spacing: normal;
+    transition: all .2s ease;
+}
+
+.gitter-open-chat-button:hover {
+    background-color: #fff;
+    color: #000 !important;
+}
