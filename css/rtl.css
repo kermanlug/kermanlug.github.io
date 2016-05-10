@@ -145,7 +145,8 @@ p {
 /*=============== Black Color for Yellow Parts ===============*/
 
 .content-head-ribbon, .text {
-    color: #2d2d2d;
+    color: #FFF;
+    margin-top: 70px;
     padding: 5px;
 }
 
