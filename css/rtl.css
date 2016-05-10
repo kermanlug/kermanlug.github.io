@@ -76,9 +76,7 @@ p {
 .content a {
     color: white;
 }
-.left{
-    float: left;
-}
+
 .footerc {
     display: inline-flex;
 }
