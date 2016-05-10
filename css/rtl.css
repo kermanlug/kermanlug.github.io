@@ -266,7 +266,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
 
 /*=============== Gitter Button ===============*/
 .gitter-open-chat-button {
-    background-color: #2E8794;
+    background-color: #2E8794 !important;
     color: #fff !important;
     font-family: 'Vazir';
     font-size: 20px;
