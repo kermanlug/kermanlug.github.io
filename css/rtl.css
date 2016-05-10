@@ -145,7 +145,7 @@ p {
 /*=============== Black Color for Yellow Parts ===============*/
 
 .content-head-ribbon, .text {
-    color: #FFF;
+    color: #2d2d2d;
     margin-top: 70px;
     padding: 5px;
 }
@@ -281,3 +281,12 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     background-color: #fff;
     color: #000 !important;
 }
+/*======================================
+=            thank-you page            =
+======================================*/
+
+
+#text_th{
+    color:#FFF;
+}
+
