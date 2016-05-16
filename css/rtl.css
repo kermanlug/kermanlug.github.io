@@ -89,7 +89,7 @@ p {
 
 /*===============   ===============*/
 .splash-container{
-   background-image: url("/images/klug.jpg");
+   background-image: url("../images/bagh-fathabad.jpg");
    -webkit-background-size:100% auto;
    background-size: 100% auto;
    height: 100%;
@@ -286,12 +286,3 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     background-color: #fff;
     color: #000 !important;
 }
-/*======================================
-=            thank-you page            =
-======================================*/
-
-
-#text_th{
-    color:#FFF;
-}
-
