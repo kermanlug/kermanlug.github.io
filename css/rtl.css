@@ -19,6 +19,8 @@ body {
     letter-spacing: -0.32em; /* to solve an issue in FF! */
 }
 
+
+
 /*=============== Font Issues ===============*/
 input, .splash-head, .pure-button, .pure-form, .pure-button {
     font-family: 'Vazir', 'pfont', 'Ubuntu';
@@ -46,6 +48,7 @@ p {
     float: left;
 }
 
+
 .pure-menu-horizontal {
     white-space: normal;
 }
@@ -64,9 +67,8 @@ p {
 .footer a:hover,
 .content a:hover,
 .ribbon a:hover  {
-    background: #fff;
     border-bottom: 0px solid #fff;
-    color: #111414;
+    color: #2ebaae !important;
     text-decoration: none;
 }
 
@@ -75,25 +77,69 @@ p {
     color: white;
 }
 
+.footerc {
+    display: inline-flex;
+}
+
+
 .ribbon a {
     color: black;
 }
 
+
 /*===============   ===============*/
-.splash-container, .ribbon {
-    background: #FFEB3B;
+.splash-container{
+   background-image: url("/klug/kermanlug.github.io/images/klug.jpg");
+   -webkit-background-size:100% auto;
+   background-size: 100% auto;
+   height: 100%;
+   background-position: 0px 40px;
+
+     background-color: rgba(62, 71, 93, 0.80);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+
+}
+@media (max-width: 48em) {
+
+
+    .splash-container{
+        background-size: auto 100%;
+    }
+}
+
+.splash{
+    top: 55px;
+}
+.content-wrapper{
+    top: 100%;
 }
 
 .home-menu, .content-wrapper {
-    background: black;
+    background: #056571;
 }
 
 .splash-head, .splash-subhead {
-    color: black;
+    font-family: 'Vazir', 'pfont', 'Ubuntu';
+    color: #fff;
+}
+.splash-subhead{
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 1.4em;
+}
+.header{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .splash-head {
-    border-color: black
+    border-color: #FFF;
+}
+.ribbon{
+    background: #FFF;
 }
 
 .pure-button {
@@ -105,19 +151,18 @@ p {
 /*=============== Black Color for Yellow Parts ===============*/
 
 .content-head-ribbon, .text {
-    color: black;
+    color: #2d2d2d;
+    margin-top: 50px;
     padding: 5px;
 }
 
 /*=============== SUBSCRIBE FORM ===============*/
 input[type="text"], input[type="email"], input[type="password"], textarea {
-    background-color: white;
-    border: 2px solid gray;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    color: #000000;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
     font-family: inherit;
-    font-size: 14px;
+    font-size: 17px;
     padding: 9px 10px;
     margin: 0px 0px 8px 0px;
     -webkit-transition: all 0.7s ease 0s;
@@ -129,7 +174,10 @@ input[type="text"], input[type="email"], input[type="password"], textarea {
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
-    background-color: rgba(255,255,255,1);
+    /*background-color: rgba(255,255,255,1);*/
+    background: #FFF;
+    color: #000;
+    opacity: 1;
 }
 
 .subscribe-width {
@@ -168,6 +216,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    width: 50px;
 }
 
 #subscribe_submit:hover {
@@ -224,16 +273,26 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
 
 /*=============== Gitter Button ===============*/
 .gitter-open-chat-button {
-    background-color: #FFEB3B;
-    color: #000 !important;
+    background-color: #2E8794 !important;
+    color: #fff !important;
     font-family: 'Vazir';
     font-size: 20px;
     padding: .4em .5em;
     letter-spacing: normal;
     transition: all .2s ease;
+
 }
 
 .gitter-open-chat-button:hover {
     background-color: #fff;
     color: #000 !important;
 }
+/*======================================
+=            thank-you page            =
+======================================*/
+
+
+#text_th{
+    color:#FFF;
+}
+
