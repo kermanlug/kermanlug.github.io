@@ -89,7 +89,7 @@ p {
 
 /*===============   ===============*/
 .splash-container{
-   background-image: url("/klug/kermanlug.github.io/images/klug.jpg");
+   background-image: url("/images/klug.jpg");
    -webkit-background-size:100% auto;
    background-size: 100% auto;
    height: 100%;
