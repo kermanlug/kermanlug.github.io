@@ -87,7 +87,7 @@ p {
 }
 
 
-/*===============   ===============*/
+/*===============  #  ===============*/
 .splash-container{
    background-image: url("../images/bagh-fathabad.jpg");
    -webkit-background-size:100% auto;
@@ -148,8 +148,7 @@ p {
     margin-top: 10px;
 }
 
-/*=============== Black Color for Yellow Parts ===============*/
-
+/*=============== Ribon ===============*/
 .content-head-ribbon, .text {
     color: #2d2d2d;
     padding: 5px;
@@ -253,6 +252,10 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     vertical-align: top;
     width: 12px !important;
     height: 12px !important;
+}
+
+.pure-u-lg-2-5 {
+    width: 35%;
 }
 
 /*=============== Google Maps ===============*/
