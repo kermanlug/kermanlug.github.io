@@ -289,3 +289,9 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     background-color: #fff;
     color: #000 !important;
 }
+
+/*=============== Extra ===============*/
+.addr {
+    font-family: 'vazir';
+    color: #000;
+}
