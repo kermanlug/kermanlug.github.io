@@ -61,6 +61,12 @@ p {
     margin-top: 3px;
 }
 
+/*=============== Disables 'scroll-over' effect ===============*/
+
+.splash-container {
+     position: absolute !important;
+}
+
 /*=============== a, a:hover ===============*/
 .home-menu li a:hover,
 .home-menu li a:focus,
