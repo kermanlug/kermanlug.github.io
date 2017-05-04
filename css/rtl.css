@@ -66,7 +66,7 @@ p {
 .home-menu li a:focus,
 .footer a:hover,
 .content a:hover,
-.ribbon a:hover  {
+.ribbon a:hover {
     border-bottom: 0px solid #fff;
     color: #2ebaae !important;
     text-decoration: none;
@@ -88,30 +88,27 @@ p {
 
 
 /*===============  #  ===============*/
-.splash-container{
-   background-image: url("../images/bagh-fathabad.jpg");
-   -webkit-background-size:100% auto;
-   background-size: 100% auto;
-   height: 100%;
-   background-position: 0px 40px;
-
-     background-color: rgba(62, 71, 93, 0.80);
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-
+.splash-container {
+    background-image: url("../images/bagh-fathabad.jpg");
+    -webkit-background-size:100% auto;
+    background-size: 100% auto;
+    height: 100%;
+    background-position: 0px 40px;
+    background-color: rgba(62, 71, 93, 0.80);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
 }
+
 @media (max-width: 48em) {
-
-
-    .splash-container{
+    .splash-container {
         background-size: auto 100%;
     }
 }
 
-.splash{
+.splash {
     top: 55px;
 }
-.content-wrapper{
+.content-wrapper {
     top: 100%;
 }
 
@@ -181,6 +178,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .subscribe-width {
     width: 50%;
     margin-right: 25%;
+}
+
+@media (max-width: 600px) {
+    .subscribe-width {
+        width: 90%;
+        margin-right: 6%;
+    }
 }
 
 .subscribe {
