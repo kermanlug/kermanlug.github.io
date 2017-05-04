@@ -268,14 +268,14 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     width: 35%;
 }
 
-/*=============== Google Maps ===============*/
-.google-maps {
+/*=============== OpenStreetMap ===============*/
+.map {
     position: relative;
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
 }
-.google-maps iframe {
+.map iframe {
     position: absolute;
     top: 0;
     left: 0;
