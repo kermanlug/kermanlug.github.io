@@ -36,6 +36,12 @@ p {
     letter-spacing: 0em;
 }
 
+.splash-subhead {
+  letter-spacing: 0px;
+  opacity: 1;
+  font-size: 1.3em;
+}
+
 /*=============== Header ===============*/
 .home-menu {
     text-align: right;
@@ -126,7 +132,7 @@ p {
 .splash-subhead{
     letter-spacing: 0px;
     opacity: 1;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 .header{
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
